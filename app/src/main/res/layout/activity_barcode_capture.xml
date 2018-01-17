@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <com.example.simonastojanovic.visionbarcodescanner.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.simonastojanovic.visionbarcodescanner.camera.ScannerOverlay
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#44000000"
+            app:square_height="200"
+            app:square_width="300"
+            app:auto_focus="true"/>
+    </com.example.simonastojanovic.visionbarcodescanner.camera.CameraSourcePreview>
+</LinearLayout>
+
+
+
